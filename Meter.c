@@ -315,6 +315,8 @@ static void BarMeterMode_draw(Meter* this, int x, int y, int w) {
          if (bar[j] == ' ') {
             if (CRT_colorScheme == COLORSCHEME_MONOCHROME) {
                bar[j] = BarMeterMode_characters[i];
+            } else if (CRT_colorScheme == COLORSCHEME_LIGHT) {
+               bar[j] = '#';
             } else {
                bar[j] = '|';
             }
