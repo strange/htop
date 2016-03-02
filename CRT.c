@@ -521,8 +521,8 @@ int CRT_colorSchemes[LAST_COLORSCHEME][LAST_COLORELEMENT] = {
    },
    [COLORSCHEME_BROKENGRAY] = { 0 }, // dynamically generated.
    [COLORSCHEME_LIGHT] = {
-      [RESET_COLOR] = ColorPair(Black,White),
-      [DEFAULT_COLOR] = ColorPair(Black,White),
+      [RESET_COLOR] = ColorPair(Black,Black),
+      [DEFAULT_COLOR] = ColorPair(Black,Black),
       [FUNCTION_BAR] = ColorPair(White,Cyan),
       [FUNCTION_KEY] = ColorPair(White,Black),
       [PANEL_HEADER_FOCUS] = ColorPair(White,Green),
